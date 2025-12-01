@@ -112,7 +112,8 @@ while running:
         # TODO: repeat for continue
         # TODO: call pygame.display_update()
 
-        #Pause the game until the player presses a key, then reset the game
+       #Pause the game until the player presses a key, then reset the game
+
         # TODO: assign True to is_paused
 
         pass # TODO: remove this line.
