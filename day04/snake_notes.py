@@ -125,28 +125,28 @@ while running:
 
     # Blit HUD
     # TODO: Read below.  2 TODO's, require's explanation
-    '''
+
     Blitting means copying an image from it's source (the code) to it's destination (the display) 
     This is necessary after updating the source (score changes, snake, and apple change etc.)
     1. "Call display_surface's blit function.  It takes 2 arguments, text and rect surrounding that text.  
     Pass in title_text and title_rect to blit the title to the screen
     2. repeat for a new call to display_surface's blit function passing in score_text and score_rect.  
     "We've just told the title and score to display.  
-    '''
+
 
     # TODO: Read below.  3 TODO's, require's explanation
-    '''
+
     1. for every body in body_coords do the following
     call pygame.draw.rect and pass in display_surface, DARKGREEN, and body
     2. assign to head_rect the results from calling pygame.draw.rect passing in display_surface, GREEN, and head_coord.
     3. assign to apple_rect the results from calling pygame.draw.rect passing in display_surface, RED, and apple_coord  
-    '''
+
 
 
 
     # Blit assets
     # TODO: Read below.  2 TODO's, require's explanation
-    '''
+
     Calling pygame.draw.rect is a way to blit rectangles.  
     The blit function for display_surface is for direct blitting.  
     2 ways to do similar things.  Update the display
